@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "plants",
+  "info": {
+    "name": "plants",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "plantid": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "plantCapacity": {
+      "type": "integer"
+    },
+    "slotLength": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

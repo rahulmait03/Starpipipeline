@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "trailers",
+  "info": {
+    "name": "trailers",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "trailerplate": {
+      "type": "string"
+    },
+    "typeoftrailer": {
+      "type": "string"
+    },
+    "agency": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "statusdate": {
+      "type": "integer"
+    }
+  }
+}

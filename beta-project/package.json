@@ -1,0 +1,55 @@
+{
+  "name": "beta-project",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi develop",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.0",
+    "eslint": "^6.0.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-react": "^7.14.0"
+  },
+  "dependencies": {
+    "knex": "latest",
+    "lodash": "^4.17.5",
+    "minipass": "^3.1.1",
+    "sqlite3": "latest",
+    "strapi": "3.0.0-beta.14",
+    "strapi-admin": "3.0.0-beta.14",
+    "strapi-email-amazon-ses": "^3.0.0-alpha.13.1",
+    "strapi-hook-bookshelf": "3.0.0-beta.14",
+    "strapi-hook-knex": "3.0.0-beta.14",
+    "strapi-plugin-content-manager": "3.0.0-beta.14",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.14",
+    "strapi-plugin-documentation": "^3.0.0-beta.14",
+    "strapi-plugin-email": "3.0.0-beta.14",
+    "strapi-plugin-settings-manager": "3.0.0-beta.14",
+    "strapi-plugin-upload": "3.0.0-beta.14",
+    "strapi-plugin-users-permissions": "3.0.0-beta.14",
+    "strapi-provider-email-amazon-ses": "^3.0.0-beta.17.8",
+    "strapi-provider-email-mailgun": "^3.0.0-beta.17.6",
+    "strapi-provider-email-nodemailer": "^2.0.0",
+    "strapi-provider-email-sendgrid": "^3.0.0-alpha.26.2",
+    "strapi-utils": "3.0.0-beta.14",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "a3fe6719-32fc-400f-961f-98969d1a5458"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

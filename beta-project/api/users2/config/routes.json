@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/users2S",
+      "handler": "Users2.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/users2S/count",
+      "handler": "Users2.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/users2S/:id",
+      "handler": "Users2.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/users2S",
+      "handler": "Users2.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/users2S/:id",
+      "handler": "Users2.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/users2S/:id",
+      "handler": "Users2.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
