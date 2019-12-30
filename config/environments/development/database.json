@@ -1,0 +1,21 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-bookshelf",
+      "settings": {
+        "client": "mysql",
+        "host": "${process.env.DATABASE_HOST || 'iberpotash-trucks-strapi.cmkkmfk9p1gg.eu-west-1.rds.amazonaws.com'}",
+        "port": "${process.env.DATABASE_PORT || 3306}",
+        "database": "${process.env.DATABASE_NAME || 'strapisql'}",
+        "username": "${process.env.DATABASE_USERNAME || 'admin'}",
+        "password": "${process.env.DATABASE_PASSWORD || 'Icldec123'}"
+            },
+      "options": {
+        "ssl": false
+              }
+    }
+  }
+}
+
+

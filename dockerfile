@@ -1,15 +1,16 @@
-FROM ubuntu:16.04
+FROM strapi/base
 
+WORKDIR ./
 
-RUN apt-get update && apt-get install -y curl
+COPY ./package.json ./
+COPY ./yarn.lock ./
 
-RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
+RUN yarn install
 
-RUN apt-get install -y nodejs
+COPY . .
 
-WORKDIR /project
-ADD . /project/
-RUN npm install
-RUN npm install strapi@beta -g
+EXPOSE 1337
 
-ENTRYPOINT ["ng","serve"]
+ENV NODE_ENV development
+
+CMD ["yarn", "start"]

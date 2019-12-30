@@ -1,0 +1,49 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "trucks",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "truckplate": {
+  "type": "string"
+},
+"pma": {
+  "type": "integer"
+},
+"agency": {
+  "type": "string"
+},
+"status": {
+  "type": "string"
+},
+"statusdate": {
+  "type": "integer"
+},
+"postalcode": {
+  "type": "string"
+},
+"street": {
+  "type": "string"
+},
+"city": {
+  "type": "string"
+},
+"counter": {
+  "type": "string"
+},
+"transportcardname": {
+  "type": "string"
+},
+"cardvaliditydate": {
+  "type": "integer"
+},
+"taxidentificationnumber": {
+  "type": "integer"
+}
+  }
+}

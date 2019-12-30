@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "plantsavailability",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "plantid": {
+  "type": "integer"
+},
+"day": {
+  "type": "integer"
+},
+"starttime": {
+  "type": "string"
+},
+"endtime": {
+  "type": "string"
+}
+  }
+}

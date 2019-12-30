@@ -1,0 +1,46 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "orders",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "orderid": {
+  "type": "string"
+},
+"customerordernumber": {
+  "type": "string"
+},
+"incoterms": {
+  "type": "string"
+},
+"incotermsdescription": {
+  "type": "string"
+},
+"generalremarks": {
+  "type": "string"
+},
+"soldtoparty": {
+  "type": "string"
+},
+"shiptoparty": {
+  "type": "string"
+},
+"transportagent": {
+  "type": "string"
+},
+"soldtopartyjson": {
+  "type": "json"
+},
+"shiptopartyjson": {
+  "type": "json"
+},
+"transportagentjson": {
+  "type": "json"
+}
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "plantsexception",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "plantid": {
+  "type": "integer"
+},
+"starttime": {
+  "type": "string"
+},
+"endtime": {
+  "type": "string"
+},
+"isactive": {
+  "type": "integer"
+},
+"startdate": {
+  "type": "integer"
+},
+"enddate": {
+  "type": "integer"
+}
+  }
+}
